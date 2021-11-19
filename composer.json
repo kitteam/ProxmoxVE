@@ -1,5 +1,5 @@
 {
-    "name": "zzantares/proxmoxve",
+    "name": "kitteam/proxmoxve",
     "type": "library",
     "description": "A simple PHP 5.5+ Proxmox API client.",
     "keywords": ["Proxmox", "API", "KVM", "OpenVZ", "Virtualization"],
@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.5.0",
         "lib-curl": "*",
-        "guzzlehttp/guzzle": "~6.0 || ~7.0"
+        "guzzlehttp/guzzle": "^6.2|^7.0"
     },
 
     "require-dev": {
